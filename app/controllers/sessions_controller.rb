@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by email: params[:email]
-    if user&.authenticate(params[:password])
+    if user.authenticate(params[:password])
       # & амперсанд. если выдаст nil то выдаст false
       sign_in user
       flash[:success] = "Welcome back, #{current_user.name_or_email}"
