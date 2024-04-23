@@ -6,9 +6,10 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      session[:user_id] = @user.id
-      flash[:success] = "Welcome to the app, #{@user.name}"
+      sign_in @user
+      flash[:success] = "Welcome to the app, #{current_user.name_or_email}"
       redirect_to root_path
+      #render plain: params.to_yaml
     else
       render :new
     end
