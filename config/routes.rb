@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   resource :session, only: %i[new create destroy]
 
@@ -6,7 +8,6 @@ Rails.application.routes.draw do
   resources :questions do
     resources :answers, only: %i[create destroy edit update]
   end
-
 
   #  , only: %i[index new edit create update destroy show]
 
