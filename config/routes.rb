@@ -9,6 +9,9 @@ Rails.application.routes.draw do
     resources :answers, only: %i[create destroy edit update]
   end
 
+  namespace :admin do
+    resources :users, only: %i[index]
+  end
   #  , only: %i[index new edit create update destroy show]
 
   root 'pages#index'
