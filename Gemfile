@@ -30,6 +30,16 @@ gem 'pagy', '~> 4.10'
 gem 'draper', '~> 4.0'
 
 gem 'valid_email2', '~> 5'
+
+gem 'rubyzip', '~> 2.3.2'
+
+gem 'caxlsx', '~> 4.1.0'
+
+gem 'caxlsx_rails', '~> 0.6.3'
+
+gem 'rubyXL', '~> 3.4'
+
+gem 'activerecord-import'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
