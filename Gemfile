@@ -19,6 +19,8 @@ gem 'puma', '>= 5.0'
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem 'jsbundling-rails'
 
+gem 'webpacker', '~> 6.0.0.beta.7'
+#github: 'rails/webpacker', branch: 'master'
 # Bundle and process CSS [https://github.com/rails/cssbundling-rails]
 gem 'cssbundling-rails'
 

@@ -74,7 +74,7 @@ require 'pagy/extras/bootstrap'
 # See https://ddnexus.github.io/pagy/extras/materialize
 # require 'pagy/extras/materialize'
 
-# Navs extra: Add nav_js and combo_nav_js javascript helpers
+# Navs extra: Add nav_js and combo_nav_js frontend helpers
 # Notice: the other frontend extras add their own framework-styled versions,
 # so require this extra only if you need the unstyled version
 # See https://ddnexus.github.io/pagy/extras/navs
@@ -133,7 +133,7 @@ require 'pagy/extras/bootstrap'
 
 # Rails
 
-# Rails: extras assets path required by the helpers that use javascript
+# Rails: extras assets path required by the helpers that use frontend
 # (pagy*_nav_js, pagy*_combo_nav_js, and pagy_items_selector_js)
 # See https://ddnexus.github.io/pagy/extras#javascript
 # Rails.application.config.assets.paths << Pagy.root.join('javascripts')
