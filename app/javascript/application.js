@@ -7,3 +7,4 @@ import 'bootstrap/js/dist/dropdown'
 
 Rails.start()
 TurboLinks.start()
+import * as bootstrap from "bootstrap"
