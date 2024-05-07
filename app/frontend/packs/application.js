@@ -1,7 +1,7 @@
 // Entry point for the build script in your package.json
 import Rails from "@rails/ujs"
 import TurboLinks from "turbolinks"
-import '../styles/_custom.scss'
+import '../../assets/stylesheets/_custom.scss'
 
 import '@popperjs/core'
 import 'bootstrap/js/dist/dropdown'

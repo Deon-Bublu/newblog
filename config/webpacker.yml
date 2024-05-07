@@ -1,4 +1,4 @@
-# Note: You must restart bin/webpack-dev-server for changes to take effect
+# Note: You must restart bin/webpacker-dev-server for changes to take effect
 
 default: &default
   source_path: app/fronted
@@ -8,7 +8,7 @@ default: &default
   cache_path: tmp/webpacker
   webpack_compile_output: true
 
-  # Additional paths webpack should look up modules
+  # Additional paths webpacker should look up modules
   # ['app/assets', 'engine/foo/app/assets']
   additional_paths: []
 
