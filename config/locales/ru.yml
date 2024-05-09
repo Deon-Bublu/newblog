@@ -1,0 +1,18 @@
+ru:
+  en: Английский
+  ru: Русский
+  activerecord:
+    model:
+      question: "Вопрос"
+    attributes:
+      question:
+        title: "Заголовок"
+        body: "Текст"
+  pages:
+    index:
+      title: "Newblog"
+  menu:
+    home: "Главная"
+  questions:
+    destroy:
+      success: "Вопрос удалён!"
