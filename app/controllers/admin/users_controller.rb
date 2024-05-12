@@ -1,7 +1,11 @@
-class Admin::UsersController < ApplicationController
-  before_action :require_no_authentication
+# frozen_string_literal: true
 
-  def index
-    @pagy, @users = pagy User.order(created_at: :desc)
+module Admin
+  class UsersController < ApplicationController
+    before_action :require_no_authentication
+
+    def index
+      @pagy, @users = pagy User.order(created_at: :desc)
+    end
   end
 end

@@ -2,11 +2,13 @@
 import Rails from "@rails/ujs"
 import TurboLinks from "turbolinks"
 
-import '@popperjs/core'
-import 'bootstrap/js/dist/dropdown'
+//import '@popperjs/core'
+//import 'bootstrap/js/dist/dropdown'
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./scss/main.scss";
-import 'bootstrap';
+//import "./scss/main.scss";
+//import 'bootstrap';
 
 Rails.start()
 TurboLinks.start()
