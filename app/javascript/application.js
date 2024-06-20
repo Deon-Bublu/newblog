@@ -4,6 +4,7 @@ import TurboLinks from "turbolinks"
 
 //import '@popperjs/core'
 //import 'bootstrap/js/dist/dropdown'
+//import "app/assets/stylesheets/_custom.scss";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
